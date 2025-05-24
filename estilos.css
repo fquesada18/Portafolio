@@ -1,0 +1,243 @@
+body.background-image {
+  background-image: url('imagenes/tecnologia_2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #ffffff;
+}
+
+h1, h2, h5 {
+  color: #00a8c6;
+}
+
+.navbar {
+  background-color: #000000 !important;
+}
+
+.btn-outline-info, .btn-primary {
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.btn-outline-info:hover, .btn-primary:hover {
+  background-color: #00a8c6;
+  color: #ffffff;
+  border-color: #00a8c6;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.bg-light {
+  background-color: #e4e4e4 !important;
+}
+
+.text-primary {
+  color: #00a8c6 !important;
+}
+
+.btn-outline-info {
+  border-color: #00a8c6;
+  color: #00a8c6;
+}
+
+.btn-outline-info:hover {
+  background-color: #00a8c6;
+  color: #fff;
+}
+
+.rounded-circle {
+  border: 4px solid #00a8c6;
+}
+
+.skill-icon {
+  font-size: 60px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #00a8c6;
+}
+
+.skill-icon:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 15px #00a8c6;
+  color: #ffffff;
+}
+
+.skill-img {
+  width: 60px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-img:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 15px #00a8c6;
+}
+
+.bg-light-transparent {
+  background-color: rgba(228, 228, 228, 0.8); /* color #e4e4e4 con opacidad */
+  padding: 2rem;
+  border-radius: 1rem;
+  backdrop-filter: blur(5px);
+}
+
+.bg-light-transparent p, .bg-light-transparent h2 {
+  text-shadow: 1px 1px 2px #00000050;
+}
+
+.contact-info i {
+  font-size: 32px;
+  color: #00a8c6;
+  transition: transform 0.3s ease, color 0.3s ease;
+  margin-right: 10px;
+}
+
+.contact-info:hover i {
+  transform: scale(1.2);
+  color: #ffffff;
+}
+
+.contact-info:hover span {
+  color: #ffffff;
+}
+
+.contact-info {
+  transition: background-color 0.3s ease, color 0.3s ease;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.social-btn {
+  margin: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.social-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #00a8c6;
+}
+
+.skill-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 1rem;
+}
+
+.skill-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 168, 198, 0.5);
+}
+
+.animate-up {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeUp 1s ease forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 1rem;
+}
+
+.project-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgba(0, 168, 198, 0.5);
+}
+
+.animate-up {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeUp 1s ease forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card-img-top {
+  height: 180px; /* Ajusta según tu preferencia */
+  object-fit: contain; /* Mantiene proporción de la imagen */
+  background-color: #f8f9fa; /* Fondo para imágenes pequeñas */
+  padding: 10px;
+}
+
+.project-table tr {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 12px;
+  padding: 15px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.project-table p {
+  margin: 0;
+  color: #e3e0e0;
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+.project-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: transparent;
+}
+
+
+.project-table tr:hover {
+  transform: scale(1.02);
+}
+
+.project-table td {
+  border: none;
+  padding: 10px;
+  vertical-align: middle;
+  background-color: rgba(0, 0, 0, 0.6); /* color #e4e4e4 con opacidad */
+}
+
+.project-table img {
+  max-width: 150px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.project-table img:hover {
+  transform: scale(1.05);
+}
+
+
+/* Animación fade-in-up */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 1s ease-out;
+}
